@@ -1,4 +1,4 @@
-# JobsFinder API
+# JobsFinder API - Built-in JavaScript
 
 I have created this app using only JavaScript , where there is a json file filled in with jobs data , and you search inside this data for jobs
 Instead of "jobs.json" file , you can use an API , and do some changes on "script.js" if needed
