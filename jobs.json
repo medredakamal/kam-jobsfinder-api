@@ -1,0 +1,36 @@
+[{
+    "title": "React Native Developer",
+    "date": "20 August 2021",
+    "logo": "logos/logo1.svg",
+    "location": "Ontario, CA",
+    "budget": "3500"
+  },
+  {
+    "title": "Business Consultant/Information Technology",
+    "date": "11 July 2021",
+    "logo": "logos/logo2.svg",
+    "location": "Bedford, CA",
+    "budget": "9000"
+  },
+  {
+    "title": "Design Engineer",
+    "date": "14 August 2021",
+    "logo": "logos/logo3.svg",
+    "location": "New York, USA",
+    "budget": "3500"
+  },
+  {
+    "title": "Motion designer (F/H)",
+    "date": "24 August 2021",
+    "logo": "logos/logo4.svg",
+    "location": "Tanger, MA",
+    "budget": "3700"
+  },
+  {
+    "title": "Senior Digital Marketing Manager",
+    "date": "02 August 2021",
+    "logo": "logos/logo5.svg",
+    "location": "Vancouver, CA",
+    "budget": "8400"
+  }
+]

@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  outline: none;
+}
+
+body {
+  font-family: "Be Vietnam";
+}
+
+a {
+  border: 0px solid transparent;
+  position: relative;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  width: 140px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.33em;
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+p {
+  text-align: center;
+}
+
+h5 {
+  font-size: 1.067em;
+}
+
+#app {
+  margin: 15px 0 0 0;
+}
+
+.svg-inline--fa {
+  display: inline-block;
+  font-size: inherit;
+  height: 1em;
+  overflow: visible;
+  vertical-align: -0.125em;
+  color: #d42d7b;
+}
+
+.jobs__search__box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.jobs__search__box input {
+  width: 100%;
+  max-width: 550px;
+  appearance: none;
+  border: 2px solid #722edf;
+  color: #722edf;
+  padding: 5px 15px;
+  margin: 0 auto 15px auto;
+}
+
+.jobs__search__box input::placeholder {
+  color: #722edf;
+}
+
+.job__location .job__list__item:hover {
+  box-shadow: 0px 4px 19.98px 7.02px rgba(0, 0, 0, 0.17);
+}
+
+.job__list__item {
+  position: relative;
+  background-color: #ffffff;
+  overflow: hidden;
+  padding: 30px 30px 30px;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  transition: all 0.5s;
+  margin-bottom: 15px;
+}
+
+.job__logo {
+  float: left;
+}
+.job__description {
+  float: left;
+  margin-left: 30px;
+  width: 57%;
+}
+
+.job__title {
+  padding-bottom: 10px;
+  height: auto;
+}
+.job__title a {
+  color: #000;
+  font-size: 16px;
+}
+
+.job__location {
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.job__location a {
+  color: #d42d7b;
+  font-size: 14px;
+}
+
+.job__date {
+  background-color: #818ed5;
+  display: inline-block;
+  margin-bottom: 0;
+  padding: 0px 6px 5px 7px;
+  border-radius: 5px;
+  text-align: center;
+  margin-right: 7px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.job__date a {
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.job__budget {
+  background-color: #81d5c9;
+  display: inline-block;
+  margin-bottom: 0;
+  padding: 0px 6px 5px 7px;
+  border-radius: 5px;
+  text-align: center;
+  margin-right: 7px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.job__budget > .amount {
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.job__apply {
+  position: absolute;
+  left: unset;
+  top: 50px;
+  right: -25px;
+  transform: translate(-50%, -50%);
+}
+.job__apply__btn {
+  display: inline-block;
+  font-size: 14px;
+  padding: 7px 30px 10px 30px;
+  background-color: #722edf;
+  color: #ffffff;
+  border-radius: 100px;
+  transition: background-color 0.2s ease;
+}
+.job__apply__btn:hover {
+  background-color: #5f35a1;
+  color: #ffffff;
+}
+
+@media (max-width: 900px) {
+  .job__logo {
+    width: 100%;
+    text-align: center;
+  }
+  .job__logo img {
+    margin-bottom: 15px;
+  }
+  .job__title {
+    max-width: 450px;
+    margin: auto;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .job__description {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+  .job__apply {
+    left: unset;
+    top: unset;
+    right: -70px;
+  }
+}
+
+/* Med Reda Kamal Credits */
+
+.kamcredits__image {
+  height: 65px;
+  border-radius: 100%;
+  object-fit: cover;
+  width: 65px;
+}
+
+.kamcredits__createdby {
+  margin: 0 0 0 5.75px;
+}
+
+.kamcredits__content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px 0 15px 0;
+}
+
+.kamcredits__icons a img {
+  height: 32px;
+  width: 32px;
+  object-fit: cover;
+}
+
+.kamcredits__github {
+  margin: 0 10px;
+}
