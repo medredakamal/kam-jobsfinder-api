@@ -10,7 +10,7 @@ If you are a developer, try to help this repository to get optimised with some p
 Live Link : https://medredakamal.github.io/kam-jobsfinder-api
 
 ## Preview
-![KamJobsFinder Preview](https://raw.githubusercontent.com/medredakamal/kam-jobsfinder-api/main/kamjobsfinder_preview)
+![KamJobsFinder Preview](https://github.com/medredakamal/kam-jobsfinder-api/raw/main/kamjobsfinder_preview.gif)
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
